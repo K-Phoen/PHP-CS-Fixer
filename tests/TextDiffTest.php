@@ -93,7 +93,7 @@ TEST;
         sort($formats);
 
         $this->assertSame(
-            array('json', 'junit', 'txt', 'xml'),
+            array('checkstyl', 'json', 'junit', 'txt', 'xml'),
             $formats
         );
     }
